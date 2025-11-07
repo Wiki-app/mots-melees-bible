@@ -1,0 +1,99 @@
+/* Typography */
+html {
+  --font-display: 700 var(--font-size-fluid-3) 'Nunito Sans', sans-serif;
+  --font-heading: 600 var(--font-size-fluid-2) 'Nunito Sans', sans-serif;
+  --font-subheading: 500 var(--font-size-fluid-1) 'Nunito Sans', sans-serif;
+  --font-body: var(--font-size-fluid-0) 'Nunito Sans', sans-serif;
+  --font-caption: var(--font-size-0) 'Nunito Sans', sans-serif;
+  --font-code: var(--font-size-fluid-0) var(--font-monospace-code);
+}
+
+html {
+  /* Palette MiniLEK */
+  /* Noir profond - Texte principal */
+  --minilek-black: #000000;
+  
+  /* Vert menthe doux - Détails ludiques */
+  --minilek-green: #56B3A8;
+  
+  /* Rouge corail - Accent, énergie */
+  --minilek-red: #E64B46;
+  
+  /* Jaune miel - Lumière, chaleur */
+  --minilek-yellow: #F4B23C;
+
+  /* Neutral colors - Basé sur le noir profond */
+  --color-neutral-1: light-dark(#ffffff, #0a0a0a);
+  --color-neutral-2: light-dark(#fafafa, #121212);
+  --color-neutral-3: light-dark(#f5f5f5, #1a1a1a);
+  --color-neutral-4: light-dark(#eeeeee, #222222);
+  --color-neutral-5: light-dark(#e0e0e0, #2a2a2a);
+  --color-neutral-6: light-dark(#bdbdbd, #404040);
+  --color-neutral-7: light-dark(#9e9e9e, #5a5a5a);
+  --color-neutral-8: light-dark(#757575, #757575);
+  --color-neutral-9: light-dark(#616161, #8a8a8a);
+  --color-neutral-10: light-dark(#424242, #a0a0a0);
+  --color-neutral-11: light-dark(#212121, #d0d0d0);
+  --color-neutral-12: var(--minilek-black);
+  --color-neutral-contrast: light-dark(#ffffff, #000000);
+
+  /* Accent colors - Vert menthe doux */
+  --color-accent-1: light-dark(#f0faf9, #0d1f1d);
+  --color-accent-2: light-dark(#e1f5f3, #1a2e2b);
+  --color-accent-3: light-dark(#c7ebe7, #26423e);
+  --color-accent-4: light-dark(#ade1db, #325651);
+  --color-accent-5: light-dark(#93d7cf, #3f6a64);
+  --color-accent-6: light-dark(#79cdc3, #4c7e77);
+  --color-accent-7: light-dark(#68c4b9, #5a9489);
+  --color-accent-8: var(--minilek-green);
+  --color-accent-9: var(--minilek-green);
+  --color-accent-10: light-dark(#4a9f95, #6bc4ba);
+  --color-accent-11: light-dark(#3e8b82, #85d4cb);
+  --color-accent-12: light-dark(#1a3a36, #d4f1ed);
+  --color-accent-contrast: light-dark(#ffffff, #000000);
+
+  /* Success colors - Basé sur le vert menthe */
+  --color-success-1: light-dark(#f0faf9, #0d1f1d);
+  --color-success-2: light-dark(#e1f5f3, #1a2e2b);
+  --color-success-3: light-dark(#c7ebe7, #26423e);
+  --color-success-4: light-dark(#ade1db, #325651);
+  --color-success-5: light-dark(#93d7cf, #3f6a64);
+  --color-success-6: light-dark(#79cdc3, #4c7e77);
+  --color-success-7: light-dark(#68c4b9, #5a9489);
+  --color-success-8: var(--minilek-green);
+  --color-success-9: var(--minilek-green);
+  --color-success-10: light-dark(#4a9f95, #6bc4ba);
+  --color-success-11: light-dark(#3e8b82, #85d4cb);
+  --color-success-12: light-dark(#1a3a36, #d4f1ed);
+  --color-success-contrast: light-dark(#ffffff, #000000);
+
+  /* Error colors - Rouge corail */
+  --color-error-1: light-dark(#fef4f3, #2b0e0d);
+  --color-error-2: light-dark(#fde8e6, #451816);
+  --color-error-3: light-dark(#fbd5d1, #5f221f);
+  --color-error-4: light-dark(#f9c2bc, #792c28);
+  --color-error-5: light-dark(#f7afa7, #933631);
+  --color-error-6: light-dark(#f59c92, #ad403a);
+  --color-error-7: light-dark(#f28a7e, #c74a43);
+  --color-error-8: light-dark(#ef7669, #d9544d);
+  --color-error-9: var(--minilek-red);
+  --color-error-10: light-dark(#d94440, #ed5f59);
+  --color-error-11: light-dark(#c33d3a, #f27370);
+  --color-error-12: light-dark(#4a1614, #fce8e7);
+  --color-error-contrast: light-dark(#ffffff, #000000);
+
+  /* Highlight colors - Jaune miel */
+  --color-highlight-1: light-dark(#fefbf4, #1f1a0d);
+  --color-highlight-2: light-dark(#fef7e8, #2e2816);
+  --color-highlight-3: light-dark(#fdf0d5, #42381f);
+  --color-highlight-4: light-dark(#fce9c2, #564828);
+  --color-highlight-5: light-dark(#fbe2af, #6a5831);
+  --color-highlight-6: light-dark(#fadb9c, #7e683a);
+  --color-highlight-7: light-dark(#f8d489, #927843);
+  --color-highlight-8: light-dark(#f7cd76, #a6884c);
+  --color-highlight-9: var(--minilek-yellow);
+  --color-highlight-10: light-dark(#daa036, #f5bc51);
+  --color-highlight-11: light-dark(#c08f30, #f7c866);
+  --color-highlight-12: light-dark(#3d2e14, #fef7e8);
+  --color-highlight-contrast: light-dark(#000000, #000000);
+}
